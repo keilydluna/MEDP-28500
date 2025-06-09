@@ -1,0 +1,74 @@
+body {
+    background-color: #e5ff00 ;
+    color: #321977;
+
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 30px;
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: rgb(255, 252, 54);
+    border-radius: thick;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/BIG STARS.jpeg");
+}
+
+header {
+    background-color: #5ff675;
+    padding: 40px;
+    border: rgb(255, 157, 0) 20px solid;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+header h2 {
+    font-size: 15px;
+}
+
+nav {
+    background-color: #6200ff;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+    margin: 0px 40px;
+    padding: 5px;
+    border: rgb(255, 0, 208) 1px solid;
+    border-width: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #7bfffd;
+    padding: 40px 20px 40px 20px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(2, 138, 20);
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #b65adb;
+    padding: 40px 20px 40px 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+img {
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(196, 127, 227);
+    margin: 5px;
+    border-radius: 5px;
+}
