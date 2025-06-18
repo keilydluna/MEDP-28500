@@ -1,0 +1,232 @@
+body {
+    background-color: #e5ff00 ;
+    color: #321977;
+
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 30px;
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #fffc36;
+    border-radius: thick;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/BIG STARS.jpeg");
+}
+
+table {
+    border:#fffc36 5px solid;
+    margin: 40px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+tr.bg_dots {
+    background-color: #fffc36;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.header_bg {
+    background-color: #5ff675;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.header_bg {
+    background-color: #5ff675;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.header_bg {
+    background-color: #5ff675;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.header_border {
+    background-color: #ff9d00;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.navbar_bg {
+    background-color: #6200ff;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+tr.navbar_button {
+    background-color: #ff00d0;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.main_bg {
+    background-color: #7bfffd;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.main_border {
+    background-color: #028a14;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+tr.pic_border {
+    background-color: #c47fe3;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+tr.footer_bg {
+    background-color: #b65adb;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+
+th {
+    background-color: #3acf98;
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+    font-family: "Doto", sans-serif;
+    font-weight: 500;
+}
+
+
+td {
+    
+    margin: 0px;
+    border-width: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: #5ff675;
+    padding: 40px;
+    border: #ff9d00 20px solid;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: "Doto", sans-serif;
+    font-weight: 500;
+   
+   
+}
+
+header h2 {
+    font-size: 15px;
+}
+
+nav {
+    background-color: #6200ff;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin: 0px 40px;
+    padding: 5px;
+    border: #ff00d0 1px solid;
+    border-width: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #7bfffd;
+    padding: 40px 20px 40px 20px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #028a14;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #b65adb;
+    padding: 40px 20px 40px 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #c47fe3;
+    margin: 5px;
+    border-radius: 15px;
+  }
+  
+  .image {
+    
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffc14d;
+  }
+  
+  .container:hover .overlay {
+    opacity: 75%;
+  }
+  
+  .text {
+    color: #ff00d0;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "Doto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
