@@ -1,0 +1,247 @@
+/* border-box fix */
+
+.flavors-regular {
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    /* remove margin and padding on body */
+    padding: 0;
+    margin: 0;
+    background-color: #ffeded;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #453523;
+    
+  }
+  /* Grouping example */
+  /* h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-transform: uppercase;
+  } */
+
+  img {
+    width: 200px;
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+  }
+
+  
+  h1 {
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 90%;
+    color: #553f26;
+  }
+
+  .wrapper {
+    background: white;
+    /* grid layout parent */
+    display: grid;
+    /* create 12 col layout */
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #ffa743;
+  }
+
+
+  /* padding on immediate children of wrapper */
+  .wrapper>* {
+    padding: 20px;
+  }
+header {
+  background: #f1ec9c;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+  text-align: center;
+  line-height: 25%;
+}
+main {
+  background: #e9e8da;
+  /* span 6 cols */
+  grid-column: 4 / 10;
+  text-align: center;
+}
+nav {
+  background: #cdb498;
+  /* span 3 cols */
+  grid-column: 1 / 4;
+}
+aside {
+  background: #dc96b9;
+  /* span 3 cols */
+  grid-column: 10 / 13;
+}
+/* span 2 rows */
+main,
+nav,
+aside {
+  grid-row: 2 / 4;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: fit-content;
+  /* background-color: #e9e8da; */
+  
+  /* border-radius: 2px;
+  border-style: dashed; */
+}
+
+ol a {
+  color: #dddddd;
+}
+
+footer {
+  background: #bbe0d6;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+}
+
+#philly-page .wrapper {
+  background: white;
+  /* grid layout parent */
+  display: grid;
+  /* create 12 col layout */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #3f3fdf;
+}
+
+#philly-page header {
+  background: #93e7ef;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+  text-align: center;
+  line-height: 25%;
+}
+
+#philly-page {
+  /* remove margin and padding on body */
+  padding: 0;
+  margin: 0;
+  background-color: #aec0ef;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #453523;
+}
+
+#philly-page main {
+  background: #ffffff;
+  /* span 6 cols */
+  grid-column: 4 / 10;
+}
+#philly-page nav {
+  background: #fcd5a9;
+  /* span 3 cols */
+  grid-column: 1 / 4;
+}
+#philly-page aside {
+  background: #ff86c3;
+  /* span 3 cols */
+  grid-column: 10 / 13;
+}
+
+
+
+#gelato-page .wrapper {
+  background: white;
+  /* grid layout parent */
+  display: grid;
+  /* create 12 col layout */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #3f3fdf;
+}
+
+#gelato-page header {
+  background: #ffdcb4;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+  text-align: center;
+  line-height: 25%;
+}
+
+#gelato-page {
+  /* remove margin and padding on body */
+  padding: 0;
+  margin: 0;
+  background-color: #ffb300;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #453523;
+}
+
+#gelato-page main {
+  background: #f1ff85;
+  /* span 6 cols */
+  grid-column: 4 / 10;
+}
+#gelato-page nav {
+  background: #ff943c;
+  /* span 3 cols */
+  grid-column: 1 / 4;
+}
+#gelato-page aside {
+  background: #e589ff;
+  /* span 3 cols */
+  grid-column: 10 / 13;
+}
+
+
+.image-wrapper {
+  position: relative;
+}
+
+.hover-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-wrapper:hover .default-image {
+  display: none;
+  
+}
+
+.image-wrapper:hover .hover-image {
+  display: block;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
