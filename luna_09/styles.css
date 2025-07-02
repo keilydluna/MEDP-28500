@@ -1,0 +1,81 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #ffde4d;
+	background-image: url("images/paper2.jpg"); 
+
+}
+
+h1 {
+	color: #0b02ff;
+	text-align: center;
+	background-color: #99ffa0;
+	background-image: url("images/paper5.jpg"); 
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	/* background-color: #99ffa0; */
+	background-image: url("images/paper3.jpg");
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.sticker-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.sticker {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.book {
+	height: 80%;
+	width: 60%;
+	/* background: #f54bbd; */
+	background-image: url("images/marble.jpg");
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+}
+.canvas {
+	height: 92%;
+	width: 92%;
+	/* background: #f5ede2; */
+	background-image: url("images/paper1.jpg");
+	position: absolute;
+	bottom: 4%;
+	left: 4%;
+	right: 5%;
+	opacity: 100%;
+	z-index: 1;
+}
+
+.middle {
+	height: 92.5%;
+	width: 3px;
+	background: #2e2e2e;
+	background-image: url("images/colorful.jpg");
+	position: absolute;
+	bottom: 3.7%;
+	left: 51%;
+	/* right: 50%; */
+	opacity: 100%;
+	z-index: 1;
+}
